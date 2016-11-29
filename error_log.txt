@@ -1,0 +1,7 @@
+[15-Nov-2016 11:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/jessicaz0808/public_html/pugadventure/index.php on line 45
+[15-Nov-2016 11:27:14 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/jessicaz0808/public_html/pugadventure/index.php on line 45
+[15-Nov-2016 11:27:16 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/jessicaz0808/public_html/pugadventure/index.php on line 45
+[15-Nov-2016 12:17:54 America/Chicago] PHP Warning:  file_get_contents(http://twitter.com/users/show/.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home3/jessicaz0808/public_html/pugadventure/index.php on line 45
+[15-Nov-2016 12:18:33 America/Chicago] PHP Warning:  file_get_contents(http://twitter.com/users/show/.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home3/jessicaz0808/public_html/pugadventure/index.php on line 45
