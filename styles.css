@@ -1,3 +1,16 @@
+/*general styles*/
+.img-responsive{
+  margin:0 auto;
+  height:auto!important;
+}
+
+body {
+        background-color: #FEDF8E;
+}
+
+/*paw prints*/
+
+
 /*Google Maps*/
 
 .maps {
@@ -10,3 +23,4 @@
         margin: 0;
         padding: 0;
       }
+      
