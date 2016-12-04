@@ -29,7 +29,7 @@ $postfields = array(
 /** Perform a GET request and echo the response **/
 /** Note: Set the GET field BEFORE calling buildOauth(); **/
 $url = 'https://api.twitter.com/1.1/search/tweets.json';
-$getfield = '?q=#dougthepug&count=100';
+$getfield = '?q=from:itsdougthepug&count=100';
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
 
