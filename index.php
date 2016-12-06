@@ -27,10 +27,10 @@ require_once('TwitterAPIExchange.php');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "744784586979184641-vtXvqDUjsKIMq4Cyuh0TgNkvaBjbh49",
-    'oauth_access_token_secret' => "wqZw92B2RHDdj0jYB3gp5Pmq808hwYqWkxPR85oMTs14a",
-    'consumer_key' => "eKxxAgEM4hbYi2H81mtiOIGa3",
-    'consumer_secret' => "OIHEtnCdkABlVmmLuyjArqAvznnWtVcR4BfWao3iPNjkC6YwTk"
+    'oauth_access_token' => //,
+    'oauth_access_token_secret' => //,
+    'consumer_key' => //,
+    'consumer_secret' => //
 );
 
 /** URL for REST request, see: https://dev.twitter.com/docs/api/1.1/ **/
