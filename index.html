@@ -35,37 +35,53 @@
 
 	<!--google map-->
 	<div class="container">
-		<div class="row">
+		<div class="row mappad">
 			<div class="col-md-12">
-				<h3>Doug's book tour</h3>
+				<h2 class="mapintro">Doug's book tour</h2>
+				<p class="mapblurb">Internet star Doug the Pug has recently released his first book and will be touring around the world to meet fans and sign books. Click on the paw icons on the map below to display his touring dates and locations. The red paw marks the start of his tour. </p>
 				<div id="map1" class="maps"></div>	
 			</div>
 		</div>
 	</div>
 	
-	<!--twitter-->
+	<!--social media-->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<iframe align="center" width="100%" height="100%" src="index.php" frameborder="yes" scrolling="yes" name="twitframe" id="tweetsbox"> </iframe>
+			
+			<!--twitter-->
+			<div class="col-md-6 socialpad">
+				<h2>Keep up with Doug</h2>
+				<iframe align="center" width="100%" height="600px" src="index.php" frameborder="yes" scrolling="yes" name="twitframe" id="tweetsbox"> </iframe>
+			</div>
+			
+			<!--tumblr-->
+			<div class="col-md-6 socialpad">
+				<h2>Doug's fans</h2>
+				<iframe align="center" width="100%" height="600px" src="tumblr.php" frameborder="yes" scrolling="yes" name="tumblrframe" id="tumblrbox"> </iframe>
 			</div>
 		</div>
 	</div>
 	
 
 	
-	
 	<!-- latest compiled javaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-	<!--custom styles-->
-	<script src="map_data.js"></script>
+	
+	<!--scripts-->
 	<script src="script.js"></script>
+	
+	
 	
 	<!--google maps key-->
 	<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGkRnHiLSsXNW7dTkO8Kcpr1ZrK8oSw3U&callback=initMap">
     </script>
+	
+	
+	
+
+	
 
 </body>
 </html>

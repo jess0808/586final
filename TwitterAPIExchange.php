@@ -305,8 +305,8 @@ class TwitterAPIExchange
         $feed = curl_init();
         curl_setopt_array($feed, $options);
         $json = curl_exec($feed);
-
-        $this->httpStatusCode = curl_getinfo($feed, CURLINFO_HTTP_CODE);
+//this
+        //$this->httpStatusCode = curl_getinfo($feed, CURLINFO_HTTP_CODE);
 
         if (($error = curl_error($feed)) !== '')
         {
@@ -397,8 +397,10 @@ class TwitterAPIExchange
      *
      * @return integer
      */
-    public function getHttpStatusCode()
-    {
-        return $this->httpStatusCode;
-    }
+    
+    //this
+    //public function getHttpStatusCode()
+    //{
+    //    return $this->httpStatusCode;
+    //}
 }

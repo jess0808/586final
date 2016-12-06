@@ -8,19 +8,160 @@ body {
         background-color: #FEDF8E;
 }
 
-/*paw prints*/
+/*map intro*/
 
+h2{
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #9B8579;
+}
 
-/*Google Maps*/
+p.mapblurb {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/*google maps*/
 
 .maps {
         height: 400px;
         width: 100%;
-       }
 
-       html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      
+       }
+       
+.mappad {
+  padding-bottom: 50px;
+}
+
+/*social media*/
+.socialpad {
+    padding-bottom: 50px;
+}
+
+/*twitter*/
+.twit-tweet {
+    border-bottom: 1px solid #8899a6;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.twit-profilepic{
+  margin-top: 10px;
+}
+
+.twit-profilepic:hover{
+  opacity: 0.6;
+}
+
+.twit-name {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.twit-name a {
+  color: #92B569;
+}
+
+.twit-name a:hover {
+  color: #EFD154;
+  text-decoration: none;
+}
+
+.twit-handle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #92B569;
+}
+
+.twit-handle:hover {
+  color: #EFD154;
+  text-decoration: none;
+}
+
+.twit-timestamp {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  color: #9B8579;
+}
+
+.twit-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#tweetsbox {
+  border: 8px solid #9B8579;
+}
+
+/*tumblr*/
+
+#tumblrbox {
+  border: 8px solid #9B8579;
+}
+.tumblr-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid #95C1BF;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 15px;
+
+}
+
+.tumblr-user {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+
+.tumblr-user a{
+  color: #92B569;
+}
+
+.tumblr-user a:hover {
+  color: #EFD154;
+  text-decoration: none;
+}
+
+.tumblr-date {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  color: #9B8579;
+}
+
+.tumblr-pic {
+  display:block;
+  margin: auto;
+}
+
+.tumblr-div p{
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.tumblr-tags {
+    display: inline;
+    word-wrap: break-word;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    color: #92B569;
+
+}
