@@ -6,12 +6,11 @@
     
     <!-- latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
+	<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
     <!--styles-->
-	
-		<!--paw prints-->
-		<link type="text/css" rel="stylesheet" href="nav.css" />
-		<link type="text/css" rel="stylesheet" href="pawprints.css" />
         
 		 <!--custom styles-->
         <link rel="stylesheet" type="text/css" href="styles.css">
@@ -21,20 +20,61 @@
 
 <body>
 	
+	<!--nav-->
+	<div class="container">
+	<div class="hamburgler-menu">
+		<ul class="hamburgler-menu-list">
+			<li><a href=#nav-about>ABOUT</a></li>
+			<li><a href=#nav-map>MAP</a></li>
+			<li><a href=#nav-twitter>TWITTER</a></li>
+			<li><a href=#nav-tumblr>TUMBLR</a></li>
+			<li><a href=#nav-video>MUSIC VIDEO</a></li>
+		</ul>
+	</div>
+				  
+	<div id="hamburgler" class="hamburgler-icon-wrapper">
+		<span class="hamburgler-icon"></span>
+	</div>
+	</div>
 	<!--logo-->
 	<div class="container">
-		<div class="row">
+		<div class="row logo">
 			<div class="col-md-6">
 				<img src="images/doug.png" style="width:600px; height:145px;" class="img-responsive">
 			</div>
-			
-			
-			
 		</div>
 	</div>
-
+	
+	<!--about-->
+	<div class="container" id="nav-about">
+		<div class="row about-padding">
+			<div class="col-md-12">
+				<h2>Who is Doug?</h2>
+				<p>Doug is a 2 year old pug living in Nashville with his owner Leslie Mosier. Leslie quit her job to become her pug's manager when she saw how much attention Doug was getting on social media after she posted pictures and videos of him with silly props. Doug loves posing for pictures and has taken the internet by storm. He has even reached "celebrity status" as he's considered one of the most famous animals in the world and has made appearances in music videos and met many famous celebrities.</p>
+			</div>
+			
+			<div class="col-md-3 col-xs-6 greenborder">
+				<img src="images/1-doug2.png" style="width:100%;">
+			</div>
+			
+			<div class="col-md-3 col-xs-6 greenborder">
+				<img src="images/1-doug3.png" style="width:100%;">
+			</div>
+			
+			<div class="col-md-3 col-xs-6 greenborder">
+				<img src="images/1-doug1.png" style="width:100%;">
+			</div>
+			
+			<div class="col-md-3 col-xs-6 greenborder">
+				<img src="images/1-doug4.png" style="width:100%;">
+			</div>
+			
+		
+		</div>
+	</div>
+	
 	<!--google map-->
-	<div class="container">
+	<div class="container" id="nav-map">
 		<div class="row mappad">
 			<div class="col-md-12">
 				<h2 class="mapintro">Doug's book tour</h2>
@@ -43,27 +83,65 @@
 			</div>
 		</div>
 	</div>
+
+
 	
 	<!--social media-->
 	<div class="container">
 		<div class="row">
 			
 			<!--twitter-->
-			<div class="col-md-6 socialpad">
-				<h2>Keep up with Doug</h2>
-				<p>Read Doug's latest tweets below and see what he's up to!</p>
+			<div class="col-md-6 socialpad" id="nav-twitter">
+				<h2>Keeping up with Doug</h2>
+				<p>Read Doug's latest tweets below and see what he's up to</p>
 				<iframe align="center" width="100%" height="600px" src="index.php" frameborder="yes" scrolling="yes" name="twitframe" id="tweetsbox"> </iframe>
 			</div>
 			
 			<!--tumblr-->
-			<div class="col-md-6 socialpad">
+			<div class="col-md-6 socialpad" id="nav-tumblr">
 				<h2>Doug's fans</h2>
-				<p>Read what Doug's fans have to say about him!</p>
+				<p>A look at Doug's fans on Tumblr</p>
 				<iframe align="center" width="100%" height="600px" src="tumblr.php" frameborder="yes" scrolling="yes" name="tumblrframe" id="tumblrbox"> </iframe>
 			</div>
 		</div>
 	</div>
 	
+	<!--video-->
+	<div class="container" id="nav-video">
+		<div class="row video-pad">
+			<div class="col-md-12">
+				<h2>Doug's music video appearance</h2>
+				<p>Fall Out Boy and Demi Lovato invited Doug the Pug to star in their remix of the song "Irresistible." Check it out below!</p>
+			</div>
+			
+			<div class="col-md-12">
+				<iframe width="100%" height="450" src="https://www.youtube.com/embed/ADWypQgZxoY" frameborder="0" allowfullscreen></iframe>
+			</div>
+		
+		</div>
+	</div>
+	
+	<!--footer-->
+	<section class="footer">
+    <div class ="container">
+        <div class="row">
+            <div class="col-md-4 col-centered">
+                <h4>ADVENTURES OF DOUG THE PUG</h4>
+            </div>
+            
+            <div class="col-md-4 col-centered">
+                <h4><a href="#">Return to Top</a></h4>
+            </div>
+            
+            <div class="col-md-4 col-centered">
+                <a href="https://www.facebook.com/itsdougthepug" target="_blank"><img src="images/fb.png" alt="facebook" id="wrapper"; style="width:30px; height: 30px;" hspace="5"></a>
+                <a href="https://twitter.com/itsdougthepug" target="_blank"><img src="images/twitter.png" alt="twitter" id="wrapper"; style="width:30px; height: 30px;" hspace="5"></a>
+                <a href="https://www.instagram.com/itsdougthepug" target="_blank"><img src="images/insta.png" alt="google" id="wrapper"; style="width:30px; height: 30px;" hspace="5"></a>
+            </div>
+        
+        </div>
+    </div>
+</section>
 
 	
 	<!-- latest compiled javaScript -->
@@ -77,7 +155,7 @@
 	
 	<!--google maps key-->
 	<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=//">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGkRnHiLSsXNW7dTkO8Kcpr1ZrK8oSw3U&callback=initMap">
     </script>
 	
 	

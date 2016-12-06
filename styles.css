@@ -4,8 +4,27 @@
   height:auto!important;
 }
 
+.logo {
+  margin-top: 30px;
+}
+
+@media (max-width: 784px) {
+ .logo {
+  margin-top: 70px;
+}
+}
+
 body {
         background-color: #FEDF8E;
+}
+
+/*about*/
+.greenborder img {
+  border: 8px solid #82BFBE;
+}
+
+.about-padding {
+  padding-bottom: 25px;
 }
 
 /*map intro*/
@@ -18,7 +37,7 @@ h2{
   color: #9B8579;
 }
 
-p.mapblurb {
+p{
   font-family: "Roboto";
   font-weight: 400;
   font-size: 15px;
@@ -164,4 +183,165 @@ p.mapblurb {
     font-size: 12px;
     color: #92B569;
 
+}
+
+/*video*/
+.video-pad {
+  padding-bottom: 50px;
+}
+
+
+/*footer*/
+section.footer {
+  font-family: "Roboto";
+  font-weight: 400;
+  background-color: #84C1BF;
+  padding: 40px;
+  color: white;
+}
+
+section.footer h2 {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section.footer a{
+  color:white;
+}
+
+section.footer a:hover {
+  color: #FEDF8E;
+}
+
+section.footer img:hover {
+  opacity: 0.4;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:center;
+    margin-right:-4px;
+}
+
+/*nav*/
+.hamburgler-icon-wrapper {
+  position: fixed;
+  top: 10px;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+  background-color: #EC7F71;
+  z-index:1000;
+  border-radius: 50px;
+  margin-top: 20px;
+  left: 93%;
+  transform: translateX(-50%);
+
+}
+
+.hamburgler-icon,
+.hamburgler-icon:before,
+.hamburgler-icon:after {
+  content: '';
+  position: absolute;
+  height: 7px;
+  width: 35px;
+  background: white;
+  transition: all 0.2s ease;
+
+}
+
+.hamburgler-icon {
+  top: 28px;
+  left: 14px;
+}
+
+.hamburgler-icon:before {
+  top: -12px;
+}
+
+.hamburgler-icon:after {
+  top: 12px;
+}
+
+.hamburgler-active .hamburgler-icon {
+  background: transparent;
+  transform: rotate(-135deg)
+}
+
+.hamburgler-active .hamburgler-icon:before,
+.hamburgler-active .hamburgler-icon:after {
+  top: 0;
+}
+
+.hamburgler-active .hamburgler-icon:before {
+  transform: rotate(90deg)
+}
+
+.hamburgler-active .hamburgler-icon,
+.hamburgler-active .hamburgler-icon:before,
+.hamburgler-active .hamburgler-icon:after {
+  background: white
+}
+
+.hamburgler-menu {
+  transition: all 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(43, 42, 121, 0.9);
+  z-index: 888;
+  color: white;
+
+}
+
+.hamburgler-active .hamburgler-menu {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.hamburgler-menu-list {
+  display: block;
+  transition: all 0.4s ease;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 999;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hamburgler-menu-list a{
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  letter-spacing:8px;
+  font-weight: 400;
+
+}
+
+.hamburgler-menu-list a:hover{
+  background-color:#FAF39F;
+  padding: 10px;
+  color: #58595B;
+
+}
+
+.hamburgler-menu-list li{
+  margin-bottom: 20px;
+
+}
+
+.hamburgler-active .hamburgler-menu-list {
+  transform: translate(-50%, -50%) scale(1)
 }
