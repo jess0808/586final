@@ -19,7 +19,7 @@
 <?php
 
 //$currentTrendTumblr = $_POST['currentTrendTumblr'];
-$tumblrurl = "https://api.tumblr.com/v2/tagged?tag=dougthepug" . "&api_key=JJZUAs8WPveKqlu6LXxIhoRnaLwrFlxBaNY9bI0xFENTGWJRit";
+$tumblrurl = "https://api.tumblr.com/v2/tagged?tag=dougthepug" . "&api_key=//";
 //echo $tumblrurl;
 $tumblrData = file_get_contents($tumblrurl);
 $feed = json_decode($tumblrData, true);
